@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding: 22px;
+    min-height: 100vh;
+}
+
+.main {
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.portfolio {
+    background-color: #D9D9D9;
+    max-width: 1200px;
+    display: flex;
+    border-radius: 36px;
+    padding: 44px;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    border-radius: 36px;
+    padding: 18px;
+}
+
+.intro {
+
+    margin-right: 25px;
+    margin-bottom: 15px;
+    max-width: 468px;
+}
+
+.intro__text {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+.photo {
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    height: 180px;
+}
+
+.photo .container {
+    padding: 0;
+
+}
+
+.photo img {
+    border-radius: 36px;
+    width: 180px;
+    height: auto;
+}
+
+.stack {
+    width: 266px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+
+.stack .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stack__item img {
+    height: 65px;
+    width: auto;
+}
+
+.projects {
+    width: 468px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.projects .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projects__item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.project__preview {
+    margin-right: 22px;
+}
+
+.project__preview img {
+    width: 198px;
+    height: 100%;
+}
+
+.project__descriprion {
+    font-size: 12px;
+}
+
+.graduation .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.graduation {
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+
+.graduation__item {
+    margin-bottom: 16px;
+}
+
+.graduation__item-title {
+    font-size: 30px;
+}
+
+.graduation__item-specialty {
+    font-size: 16px;
+}
+
+.soft-skills {
+    max-width: 468px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+
+.soft-skills .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.soft-skills__item {
+    padding: 5px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    border: 1px solid #D9D9D9;
+    border-radius: 36px;
+}
+
+.contacts {
+    font-size: 30px;
+}
