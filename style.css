@@ -59,6 +59,7 @@ body {
 .intro {
     margin: 15px;
     max-width: 468px;
+    min-width: 300px;
 }
 
 
